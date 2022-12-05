@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color: #670100;
+}
+
+header {
+    background: var(--main-bg-color);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    padding-right: 260px;
+    padding-left: 25px;
+}
+
+.cup {
+    display: flex;
+    align-items: center;
+}
+
+.cup img {
+    padding-left: 50px;
+    width: 58px;
+}
+
+nav ul {
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 20vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.btn {
+    height: 35px;
+    width: 38px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+.ticket {
+    display: inline-flex;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0;
+    background-color: rgba(60, 56, 56, 0.463);
+}
+
+.ticket h4{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+.box2 img{
+    margin: 20px 0 0 150px;
+    float: left;
+}
+
+.line {
+    float: right;    
+    top: 20px;
+    left: 1250px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #670100;
+    margin: 120px 350px 0 0  ;
+}
+
+.space {
+    height: 30px;
+    width: 100%;
+}
+
+.head {
+    display: inline-block;
+    height: 65px;
+    width: 1015px;
+    margin: 3px 250px 5px 335px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 5px;
+    letter-spacing: 10px;
+    font-family:'Abril Fatface', cursive;
+    color: #670100;
+}
+
+.flex3 {
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-score {
+    height: 20px;
+    width: 320px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.Store {
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+    background-color: rgba(60, 56, 56, 0.463);
+}
+
+.Store h4{
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: var(--main-bg-color);
+    height: 370px;
+}
+
+.img {
+    margin: 0px 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.Explore,
+.visit {
+    float: left;
+    margin: 20px 24px;
+    text-align: top;
+    color: white;
+
+}
+
+.Explore ul li,
+.visit ul li {
+    list-style: none;
+    color: white;
+}
+
+.symbol {
+    clear: left;
+    display: flex;
+    margin: 10px;
+}
+
+.icon {
+    margin: 2px 10px;
+}
+
+.copyright {
+    margin: 0 20px;
+    color: white;
+}
+
+#heading{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.partner{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.a{
+    margin: 50px 0 20px 50px;
+}
