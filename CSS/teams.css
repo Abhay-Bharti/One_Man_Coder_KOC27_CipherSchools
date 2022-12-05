@@ -1,0 +1,42 @@
+.groups{
+    background-color: #FFC745 ;
+    border-radius: 80px;
+    display: inline-flex;
+    height: 80px;
+    width: 200px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    color: #007D7B;
+}
+
+.teams{
+    display: inline-flex;
+    background-color: #007D7B;
+    height: 60px;
+    width: 1200px;
+    border-radius: 80px;
+    align-items: center;
+}
+
+.team{
+    margin: 50px;
+    color: white;
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    border: 5px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.box4{
+    background-color: #FFC745 ;
+}
+
+#p{
+    height: 20px;
+}

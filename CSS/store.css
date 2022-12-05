@@ -1,0 +1,77 @@
+.scroll{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    background-color: #A6032F;
+}
+
+.Category{
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.Team{
+    align-items: center;
+    margin-left: 200px;
+}
+
+.Team input{
+    border-radius: 20px;
+    height: 20px;
+    width: 300px;
+    padding: 8px;
+}
+
+.flex1{
+    height: 60px;
+    width: 200px;
+    line-height: 20px;
+}
+   
+ .box{
+    height: auto;
+    width: auto;
+    background-color: #124b63;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.buy{
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.h1{
+    font-size: 30px;
+    margin: 20px 0 20px 50px;
+    color: #335C81;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.o{
+    height: 50px;
+}
+
+select{
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px 5px 5px 20px;
+}
+
+.color{
+    background-color: whitesmoke;
+    height: 300px;
+    width: auto;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 30px;
+}
